@@ -9,6 +9,6 @@ import java.util.Date;
 public class Home {
     @GetMapping
     public String home(){
-        return "Application works!! build with love by Cristian Marquez" + new Date();
+        return "Application works!! built with love by Cristian Márquez " + new Date();
     }
 }
